@@ -37,5 +37,5 @@ for i in result_score:
 
 for i in range(len(result_lteam_txt)):
     msg = result_time_txt[i] + " " + result_lteam_txt[i] + " " + result_score_txt[i] + " " + result_rteam_txt[i]
-    url = f"https://api.telegram.org/bot708276409:AAH_J1xkM4zjSlAkgnaBrhuIj98xN_L77JI/sendMessage?chat_id=665624074&text={msg}"
+    url = f"https://api.telegram.org/bot<token>/sendMessage?chat_id=<id>&text={msg}"
     requests.get(url)
