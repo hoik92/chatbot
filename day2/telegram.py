@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup as bs
 
 # url = f"https://api.telegram.org/bot{key}/"
 
-# key = "708276409:AAH_J1xkM4zjSlAkgnaBrhuIj98xN_L77JI"
+# key = "<token>" # 환경 변수를 이용
 
-# user_id = "665624074"
+# user_id = "<id>" # 환경 변수를 이용
 
 
 
